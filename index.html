@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Meri Chat</title>
+</head>
+<body>
+    <center>
+        <div class="header">
+            <h1>Meri Chat</h1>
+        </div>
+
+        <div class="messegeBox"></div>
+
+        <div class="messegeForm">
+            <form action="#" id="msgForm">
+                <input type="auto" name="inputBox" id="inputBox"/>
+                <button class="btn" type="submit">Send</button>
+            </form>
+        </div>
+    </center>
+</body>
+
+<script defer src="http://localhost:8002/socket.io/socket.io.js"></script>
+<script defer src="index.js"></script>
+</html>

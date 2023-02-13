@@ -1,0 +1,86 @@
+body{
+    background: linear-gradient(white, royalblue) no-repeat;
+}
+*{
+    margin: 0;
+    padding: 0;
+    outline: none;
+}
+.header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* background: yellow; */
+    height: 15vh;
+    width: 60%;
+
+}
+
+.header h1{
+    font-size: 40px;
+    font-family: 'Poppins';
+}
+
+.messegeBox{
+    width: 60%;
+    height: 71vh;
+    background: transparent;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    overflow-y: auto;
+}
+
+.messegeForm{
+    width: 60%;
+    /* background: green; */
+    height: 10vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.messegeBox .messege{
+    background: linear-gradient(90deg, rgb(162, 27, 240), rgb(14, 141, 226));
+    padding: 10px 20px;
+    margin: 20px 10px;
+    border-radius: 10px;
+    backdrop-filter: blur(40px);
+    color: white;
+    font-family: 'Poppins';
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.messegeBox .left{
+    float: left;
+    clear: both;
+}
+.messegeBox .right{
+    float: right;
+    clear: both;
+}
+
+#msgForm #inputBox{
+    width: 450px;
+    height: 35px;
+    margin-right: 7px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 0px 10px;
+    
+}
+#msgForm .btn{
+    width: 120px;
+    height: 35px;
+    font-family: 'Poppins';
+    font-size: 16px;
+    border: 2px solid black;
+    background: white;
+    border-radius: 10px;
+    cursor: pointer;
+}
